@@ -1,0 +1,9 @@
+git init -> iniciar repositorio git na pasta
+git status -> verificar os arquivos que estao ou nao commitados
+git add . -> adiciona todos os arquivos nao commitados para commitados ou " git add "nome do arquivo"" para commitar arquivo especifico
+git commit -m "nome do commit" -> cria commit pronto para ser jogado para github ex
+git branch -> verifica todas as branchs disponiveis
+git branch nomedabranch -> cria branch
+git push -> joga arquivo para a url especificada, se nao especificava vai te jogar os comandos necessarios para tal
+git remote add origin url -> configurada o destino de push.
+git push --set-upstream origin master -> especifica a branch que os arquivos vao.
