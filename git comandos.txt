@@ -7,3 +7,13 @@ git branch nomedabranch -> cria branch
 git push -> joga arquivo para a url especificada, se nao especificava vai te jogar os comandos necessarios para tal
 git remote add origin url -> configurada o destino de push.
 git push --set-upstream origin master -> especifica a branch que os arquivos vao.
+
+git checkout nomedabranch -> seleciona branch especifica.
+git reflog -> mostra as branchs e XXcommitsXX existentes.
+git reset --hard iddocommit -> volta os arquivos para versao do commit selecionado pelo id
+
+
+XX Merge XX
+
+git pull -> IMPORTANTE USAR , pois evita problemas de versoes diferentes, puxa a versao mais atual da branch selecionada para sua maquina, evitando problemas de pegar versao desatualizada
+git merge nomedabranchquevocequermergiar -> faz o merge :O
